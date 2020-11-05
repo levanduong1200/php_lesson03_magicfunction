@@ -12,6 +12,18 @@ public function __set($key, $value){
 
     echo "key: $key - value: $value"; 
 }
+public function __get($key){
+    echo "thuoc tinh vua keu goi kg ton tai $key";
+}
+public function __isset($name)
+{
+    echo "thuoc tinh $name";
+}
+public function __unset($name)
+{
+    echo "thuoc tinh $name";
+}
+
 }
 
 

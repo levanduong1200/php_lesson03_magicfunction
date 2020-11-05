@@ -5,5 +5,11 @@ $hello = new  MyClass(array(
     'email' => 'vanb11@gmail.com',
     'password' => '123456'
 ));
+$hello->name = "MyName";
+$hello->name;
+ 
+isset($helle->name);
+unset($hello->name);
+
 
 ?>
